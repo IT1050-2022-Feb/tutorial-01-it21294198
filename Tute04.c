@@ -23,15 +23,15 @@ return 0;
 int minimum(int no1,int no2){
 	if(no1<no2){
 		return no1;
-	}else{
-		return no2;
+		}else{
+			return no2;
 	}
 	}
 int maximum(int no1,int no2){
 	if(no1>no2){
 		return no1;
-	}else{
-		return no2;
+		}else{
+			return no2;
 	}	
 	}
 int multiply(int no1,int no2){
