@@ -25,10 +25,10 @@ int price;
 	scanf("%d",&distance);
 	if(distance<30){
 		price=50*distance;	
-	}else if(distance>30){
-		price=30*50+40*(distance-30);
-	}else{
-		printf("Invalid number!");
+		}else if(distance>30){
+			price=30*50+40*(distance-30);
+			}else{
+				printf("Invalid number!");
 	}
 	
 		printf("The amount is %d",price);
